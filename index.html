@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+body{margin:0;
+}
+
+#pattern{width:100vw;
+height:45vh;}
+
+#first-flex{display:flex;}
+
+#header-div{position:relative;
+top:-30vh;
+width:25vw;
+height:40vh;
+left:10vw;}
+
+#big{font-size:3vw;
+color:hsl(300, 43%, 22%);
+font-family:spartan;}
+
+#small{font-size:1.5vw;
+color:hsl(303, 10%, 53%);
+font-family:spartan;
+line-height:3vh;
+margin-top:-3vh;}
+
+#three-div{display:grid;
+grid-template-columns:25vw;
+width:35vw;
+position:relative;
+top:-25vh;
+left:50vh;
+align-content:space-evenly;
+justify-content:center;
+
+}
+#star{width:2vw;
+height:2.5vh;}
+
+
+#review{width:35vw;
+height:10vh;
+background:hsl(300, 24%, 96%);
+color:hsl(300, 43%, 22%);
+margin-left:-5vw;
+border-radius:25px;
+display:flex;
+align-items:center;
+font-family:spartan;}
+
+#guru{width:35vw;
+height:10vh;
+background:hsl(300, 24%, 96%);
+color:hsl(300, 43%, 22%);
+border-radius:25px;
+display:flex;
+align-items:center;
+font-family:spartan;
+margin-left:1vw;}
+
+#tech{width:35vw;
+height:10vh;
+background:hsl(300, 24%, 96%);
+color:hsl(300, 43%, 22%);
+margin-left:7vw;
+border-radius:25px;
+display:flex;
+align-items:center;
+font-family:spartan;}
+
+#star-con{margin-left:2.5vw;
+display:flex;
+width:15vw;
+justify-content:space-evenly;
+}
+
+#review-text{margin-left:4vw;
+font-size:1.2vw;
+font-family:spartan;}
+
+
+#final{display:flex;
+position:relative;
+top:15vh;
+width:90vw;
+justify-content:space-evenly;
+margin:auto;
+font-family:spartan;
+
+}
+
+
+#first{width:25vw;
+height:40vh;
+background:hsl(300, 43%, 22%);
+border-radius:15px;
+}
+#second{width:25vw;
+height:40vh;
+background:hsl(300, 43%, 22%);
+margin-top:5vh;
+border-radius:15px;
+}
+#third{width:25vw;
+height:40vh;
+background:hsl(300, 43%, 22%);
+margin-top:10vh;
+border-radius:15px;}
+
+#theirpic{border-radius:50%;
+width:4vw;
+height:8vh;
+margin-top:2vh;
+}
+
+
+.img-text{display:flex;
+margin-left:3vw;
+margin-top:3vh;
+}
+
+#text-only{margin-left:3vw;
+line-height:1vh;
+margin-top:2vh;
+font-size:2vw;}
+
+
+#longest{width:20vw;
+text-align:center;
+margin-top:5vh;
+margin-left:2vw;
+color:white;
+font-size:1vw;}
+
+#name{color:white;
+font-size:1vw;}
+#verified{color:hsl(333, 80%, 67%);
+font-size:0.7vw;}
+
+
+@media (max-width:600px){
+#pattern{width:100vw;
+height:50vh;}
+#header-div{position:relative;
+top:-190px;
+left:120px;
+width:60vw;
+}
+#big{font-size:2rem;
+text-align:center;
+}
+#small{font-size:1rem;
+text-align:center;
+line-height:1.5rem;
+}
+#three-div{display:grid;
+grid-template-columns:25vw;
+position:relative;
+left:-40vw;
+top:40vh;
+margin-top:-20vh;
+}
+#review{width:60vw;
+height:15vh;
+display:grid;
+grid-template-column:5vw;
+justify-content:center;
+margin-left:0;}
+#guru{width:60vw;
+height:15vh;
+display:grid;
+grid-template-column:5vw;
+justify-content:center;
+margin-left:0;}
+#tech{width:60vw;
+height:15vh;
+display:grid;
+grid-template-column:5vw;
+justify-content:center;
+margin-left:0;}
+#star-con{margin-top:3vh;
+width:25vw;
+height:5vh;
+margin-left:8vw;}
+
+#star{width:3.5vw;
+height:3.5vh;}
+#review-text{text-align:center;
+font-size:3vw;
+margin-top:-0.5vh;
+}
+#final{display:grid;
+position:relative;
+top:50vh;
+margin-bottom:10vh;}
+#first{width:60vw;
+margin-left:12vw;}
+#second{width:60vw;
+margin-left:12vw;
+}
+#third{width:60vw;
+margin-left:12vw;
+margin-top:5vh;}
+.img-text{margin-left:7vw;}
+#theirpic{width:8vw;
+height:8vh;}
+#text-only{margin-left:4vw;
+}
+#name{font-size:2.5vh;}
+#verified{font-size:2.3vh;}
+#longest{font-size:2.3vh;
+width:40vw;
+margin:auto;
+text-align:left;}
+
+}
+
+
+
+
+
+
+
+</style>
+<title>Social</title>
+<main>
+<body>
+<img alt="background" id="pattern" src="bg-pattern-top-desktop.svg">
+
+<section id="first-flex">
+<header id="header-div">
+<h1 id="big" > 10,000+ of our users love our products. </h1>
+<p id="small">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+</header>
+<article id="three-div">
+<figure id="review">
+<div id="star-con">
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+</div>
+<p id="review-text">Rated 5 Stars in Reviews</p>
+</figure>
+<figure id="guru">
+<div id="star-con">
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+</div>
+<p id="review-text">Rated 5 Stars in Report Guru</p>
+</figure>
+<figure id="tech">
+<div id="star-con">
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z" fill="#EF9546" fill-rule="nonzero"/></svg>
+</div>
+<p id="review-text">Rated 5 Stars in BestTech</p>
+
+
+</figure>
+
+</article>
+
+</section>
+<section id="final">
+
+
+<article id="first">
+<figure class="img-text">
+<img id="theirpic" alt="avatar" src="image-colton.jpg">
+<div id="text-only">
+<h2 id="name">Colton Smith</h2>
+<p id="verified">Verified Buyer</p>
+</div>
+</figure>
+<article id="longest">
+"We needed the same printed design as the one we had ordered a wweek prior. Not only did they find the original order, but we also recieved it in time. Excellent!"
+</article>
+</article>
+<article  id="second">
+<figure class="img-text">
+<img id="theirpic" alt="avatar" src="image-irene.jpg">
+<div id="text-only">
+<h2 id="name">Irene Roberts</h2>
+<p id="verified">Verified Buyer</p>
+</div>
+</figure>
+<article id="longest">
+"We needed the same printed design as the one we had ordered a wweek prior. Not only did they find the original order, but we also recieved it in time. Excellent!"
+</article>
+</article>
+<article id="third">
+<figure class="img-text">
+<img id="theirpic" alt="avatar" src="image-anne.jpg">
+<div id="text-only">
+<h2 id="name">Anne Wallace</h2>
+<p id="verified">Verified Buyer</p>
+</div>
+</figure>
+<article id="longest">
+"We needed the same printed design as the one we had ordered a wweek prior. Not only did they find the original order, but we also recieved it in time. Excellent!"
+</article>
+
+
+</article>
+
+</section>
+<img alt="background" id="pattern" src="bg-pattern-bottom-desktop.svg">
+</body>
+
+</main>
+
+
+</html>
